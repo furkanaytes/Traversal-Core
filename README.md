@@ -21,7 +21,6 @@ Bu proje vitrin, admin paneli ve kullanıcı paneli olmak üzere üç bölümden
 - Api & Rapid Api & Api Consume
 
 # Proje Görselleri
--
 
 
   ![Adsız1](https://github.com/furkanaytes/Traversal-Core/assets/140211507/0a23683d-3d76-4f13-9179-b44ff65d8d28)
