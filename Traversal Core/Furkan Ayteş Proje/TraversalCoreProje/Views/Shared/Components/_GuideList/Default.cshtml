@@ -1,0 +1,31 @@
+﻿@using EntityLayer.Concrete
+@model List<Guide> 
+    <div class="col-xl-4 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Rehberlerimiz</h4>                             
+            </div>
+            <div class="card-content">
+                <div id="recent-buyers" class="media-list">
+                 @foreach (var item in Model)
+                 {
+                    <a href="#" class="media border-0">
+                        <div class="media-left pr-1">
+                            <span class="avatar avatar-md avatar-online">
+                                <img  src="@item.Image" alt="kal" class="border-radius-lg shadow">                            
+                            </span>
+                        </div>
+                        <div class="media-body w-50">
+                            <span class="list-group-item-heading">
+                                @item.Name
+                            </span>                           
+                            <p class="list-group-item-text mb-0">
+                                <span class="blue-grey lighten-2 font-small-3"> @item.Description </span>
+                            </p>
+                        </div>
+                    </a>
+                 }
+                </div>
+            </div>
+        </div>
+    </div>
